@@ -31,10 +31,8 @@ struct User: Codable {
 }
 
 class ViewController: UIViewController {
-    
     let cellId = "cellId"
     var qiitas = [Qiita]()
-    
     let tableView: UITableView = {
         let tv = UITableView()
         return tv
@@ -85,7 +83,6 @@ class ViewController: UIViewController {
             }
         }
         task.resume()
-        
     }
 }
 
@@ -158,5 +155,19 @@ class QiitaTableViewCell: UITableViewCell {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
 }
